@@ -13,7 +13,7 @@
 # Only superuser can do ping flooding
 if [ $UID -ne 0 ]
 then
-    echo "Only superuser can execute this script! Be \'root\'!"
+    echo "Only superuser can execute this script! Be 'root'!"
     exit 1;
 fi
 
