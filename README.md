@@ -1,4 +1,5 @@
 # BMFN: Ban Me From Network
+
 -----------------------------
 
 This is just a (useless) script to ban your computer from the network.
@@ -13,11 +14,11 @@ You are the only responsible for what you do with it.
 
 The usage is simple:
 
-```
-Usage: bmfn <ip-of-a-device-in-network>
+```bash
+Usage: bmfn.sh <ip-of-a-device-in-network>
 ```
 
-## How does it works?
+## How does it works
 
 It pings the th remote host by ip, but not an usual ping, a ping flood. The size of a packet 65507
 which is maximum. This combination is called Ping of Death. Ping of Death is a type of DoS or Denial
